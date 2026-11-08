@@ -1,0 +1,12 @@
+{
+  "camera_index": 0,
+  "serial_port": "AUTO",
+  "baud_rate": 115200,
+  "simulation_mode": true,
+  "pixels_per_cm": null,
+  "force_threshold": 350,
+  "slip_delta_threshold": 45,
+  "min_grip_pwm": 20,
+  "max_grip_pwm": 90,
+  "grip_step": 5
+}
