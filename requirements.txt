@@ -3,4 +3,4 @@ opencv-python-headless
 numpy
 pandas
 Pillow
-ultralytics
+pyserial
