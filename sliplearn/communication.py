@@ -50,7 +50,7 @@ class GripperLink:
     def _send(self, payload):
         if self.connection is None or not self.connection.is_open:
             return False
-        self.connection.write((json.dumps(payload) + "\\n").encode())
+        self.connection.write((json.dumps(payload) + "\n").encode())
         return True
 
     def read_status(self):
